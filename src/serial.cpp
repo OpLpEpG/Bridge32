@@ -1,15 +1,11 @@
 #include <Arduino.h>
-#include "HardwareSerial.h"
-#include <stdio.h>
-#include <string.h>
 #include "driver/uart.h"
 #include "hal/uart_ll.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/queue.h"
-#include "driver/uart.h"
 #include "esp_log.h"
-#include"serial.h"
+#include "serial.h"
 
 #define UART_BAUD 125000
 #define UART_BAUD1 500000
